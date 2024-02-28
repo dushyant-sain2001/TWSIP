@@ -1,0 +1,112 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    background-color: black;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+.nav{
+    justify-content: space-between;
+    display: flex;
+    height: 10%;
+    width: 100%;
+    background-color: rgb(255,170,0);
+}
+.nav h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-weight: 100;
+    margin-left: 20px;
+    padding: 10px;
+}
+ul {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+ul a{
+    color: black;
+    text-decoration: none;
+}
+.list{
+    margin-right: 60px;
+    list-style: none;
+    font-size: 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: rgba(0, 0, 0, 0.317);
+}
+.contant{
+    display: flex;
+    height: 90%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+.picture{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+}
+.picture img{
+    padding: 100px;
+    border-radius: 50%;
+}
+.about{
+    line-height: 30px;
+    margin-top: 180px;
+    margin-right: 70px;
+    height: 100%;
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+}
+.discription{
+    margin-top: 40px;
+}
+.tagline{
+    color: rgba(189, 186, 186, 0.452);
+}
+.project-page{
+    margin-top: 5rem;
+    display: flex;
+    margin-left: 3rem;
+    align-items: center;
+    justify-content: center;
+     gap: 6rem;
+    flex-wrap: wrap;
+}
+.project-page .project{
+    border: 2px solid rgb(255, 170, 0);
+
+    width: 500px;
+    height: 520px;
+}
+
+.project-page .project img{
+  width: 495px;
+  height: 300px;
+}
+.project a button{
+    background-color: rgb(255, 170, 0);
+    padding: 10px;
+    margin-left: 200px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.project a button:hover{
+    background-color: transparent;
+    border: 2px solid rgb(255, 170, 0);
+    color: rgb(255, 170, 0);
+    transition: 0.5s;
+}
+.project h3{
+    margin-top: 10px;
+}
